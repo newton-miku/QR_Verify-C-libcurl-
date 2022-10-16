@@ -5,7 +5,6 @@
 #define SEP  "\t"
 #define GET_TIME std::to_string(std::time(0))
 using namespace std;
-
 struct curl_slist* cookies = NULL;//返回的cookies
 long httpcode;//网页状态码
 FILE* fp;//QR文件指针
